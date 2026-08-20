@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Browse All Jobs | JobLane</title>
+<meta name="description" content="Search and filter every open role on JobLane by title, company, location and category.">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body data-page="jobs">
+
+<div id="site-header-slot"></div>
+
+<div class="page-band">
+  <div class="container">
+    <div class="breadcrumb"><a href="index.html">Home</a> / Jobs</div>
+    <span class="eyebrow">All listings</span>
+    <h1>Browse Jobs</h1>
+    <p>Search by title, company or location, filter by category, and sort the way you like.</p>
+  </div>
+</div>
+
+<section style="padding-top:40px;">
+  <div class="container">
+
+    <div class="filter-bar">
+      <div class="filter-group">
+        <input type="text" id="jobs-search-input" class="filter-select" placeholder="Search title, company, skill…" style="min-width:220px;">
+        <select id="jobs-category-select" class="filter-select"></select>
+        <input type="text" id="jobs-location-input" class="filter-select" placeholder="Location" style="min-width:140px;">
+        <select id="jobs-sort-select" class="filter-select">
+          <option value="latest">Sort: Latest</option>
+          <option value="oldest">Sort: Oldest</option>
+          <option value="salary">Sort: Salary (high-low)</option>
+          <option value="az">Sort: Title (A-Z)</option>
+        </select>
+      </div>
+      <div style="display:flex; align-items:center; gap:14px;">
+        <span class="result-count" id="jobs-result-count"><b>0</b> jobs found</span>
+        <div class="view-toggle">
+          <button data-view="grid" class="active" type="button">Grid</button>
+          <button data-view="list" type="button">List</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="job-grid" id="jobs-grid">
+      <div class="skeleton skeleton-card"></div>
+      <div class="skeleton skeleton-card"></div>
+      <div class="skeleton skeleton-card"></div>
+      <div class="skeleton skeleton-card"></div>
+      <div class="skeleton skeleton-card"></div>
+      <div class="skeleton skeleton-card"></div>
+    </div>
+
+  </div>
+</section>
+
+<div id="site-footer-slot"></div>
+
+<script src="js/jobs-fallback.js"></script>
+<script src="js/partials.js"></script>
+<script src="js/jobs.js"></script>
+<script src="js/search.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
