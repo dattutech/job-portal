@@ -125,9 +125,9 @@ const FOOTER_HTML = `
         </a>
 
         <p>
-          JobUpdatesByKiran helps freshers and professionals discover
-          software, IT, internships, government, BPO and remote
-          job opportunities in one place.
+          JobUpdatesByKiran is not responsible for the accuracy, selection process, or outcomes of any job listing. Please verify all job details and apply only through the official company website.
+
+
         </p>
 
         <!-- SOCIAL LINKS -->
@@ -146,15 +146,6 @@ const FOOTER_HTML = `
             </svg>
           </a>
 
-          <!-- Twitter -->
-          <a href="#" aria-label="Twitter">
-            <svg
-              width="16"
-              height="16"
-              viewBox="0 0 24 24"
-              fill="currentColor"
-              style="color:#fff"
-            >
               <path d="M22 5.9c-.7.3-1.5.6-2.3.7.8-.5 1.5-1.3 1.8-2.3-.8.5-1.7.8-2.6 1a4.1 4.1 0 0 0-7 3.8 11.6 11.6 0 0 1-8.5-4.4 4.2 4.2 0 0 0 1.3 5.6c-.7 0-1.3-.2-1.9-.5v.1c0 2 1.4 3.7 3.3 4.1-.6.2-1.2.2-1.8.1.5 1.7 2 2.9 3.8 2.9A8.3 8.3 0 0 1 2 19.4a11.6 11.6 0 0 0 6.3 1.9c7.5 0 11.7-6.4 11.7-12v-.5c.8-.6 1.5-1.3 2-2Z"/>
             </svg>
           </a>
@@ -224,9 +215,9 @@ const FOOTER_HTML = `
 
         <h4>Contact</h4>
 
-        <li>support@jobupdatesbykiran.com</li>
-        <li>+91 90000 12345</li>
-        <li>Hyderabad, Telangana, India</li>
+        <li>Do follow my Instagram</li>
+        <li>the_kiran_verse</li>
+        <li>I am a Software Developer</li>
 
       </div>
 
